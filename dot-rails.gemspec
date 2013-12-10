@@ -1,13 +1,13 @@
 # encoding: utf-8
-require File.expand_path('../lib/dot/rails/version', __FILE__)
+require File.expand_path('../lib/doT/rails/version', __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = "dot-rails"
+  s.name        = "doT-rails"
   s.version     = DoT::Rails::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Larry Zhao"]
   s.email       = ["thehiddendepth@gmail.com"]
-  s.homepage    = "http://rubygems.org/gems/dot-rails"
+  s.homepage    = "http://rubygems.org/gems/doT-rails"
   s.summary     = ""
   s.description = ""
 
