@@ -3,7 +3,7 @@ require "execjs"
 module DoT
   module Source
     def self.path
-      @path = File.join(Rails.root, "vendor", "assets", "javascripts", "doT.js")
+      @path = File.expand_path('../../vendor/assets/javascripts/doT.js', __FILE__)
     end
 
     def self.path=(path)
