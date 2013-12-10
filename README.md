@@ -1,4 +1,4 @@
 dot-rails
 =========
 
-Rails plugin for DoT javascript template
+DoT javascript template for Rails assets pipeline.
