@@ -23,7 +23,7 @@ module DoT
   class << self
     def compile(template)
       template = template.read if template.respond_to?(:read)
-      Source.context.call("doT.precompile", template)
+      Source.context.call("doT.compileToString", template)
     end
 
     def context_for(template)
