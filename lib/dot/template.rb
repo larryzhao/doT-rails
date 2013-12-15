@@ -1,7 +1,7 @@
 require 'tilt'
 
-module Sprockets
-  class DotTemplate < Tilt::Template
+module DoT
+  class Template < Tilt::Template
     def self.engine_initialized?
       defined? ::DoT
     end
