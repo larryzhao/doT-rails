@@ -1,5 +1,5 @@
 # encoding: utf-8
-require File.expand_path('../lib/doT/rails/version', __FILE__)
+require File.expand_path('../lib/dot/rails/version', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "doT-rails"
@@ -17,7 +17,8 @@ Gem::Specification.new do |s|
   s.add_dependency             "therubyracer"
   s.add_development_dependency "bundler"
 
-  s.files        = `git ls-files`.split("\n")
+  # s.files        = `git ls-files`.split("\n")
+  s.files = Dir["{lib,vendor}/**/*"] + ["LICENSE", "README.md"]
   s.executables  = `git ls-files`.split("\n").select{|f| f =~ /^bin/}
   s.require_path = 'lib'
 end
