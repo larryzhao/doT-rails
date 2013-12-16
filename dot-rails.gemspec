@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "bundler"
 
   # s.files        = `git ls-files`.split("\n")
-  s.file = Dir["{lib,vendor}/**/*"] + ["LICENSE", "README.md"]
+  s.files = Dir["{lib,vendor}/**/*"] + ["LICENSE", "README.md"]
   s.executables  = `git ls-files`.split("\n").select{|f| f =~ /^bin/}
   s.require_path = 'lib'
 end
